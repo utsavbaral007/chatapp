@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Chat App</title>
+	</head>
+	<body>
+		<section class="container">
+			<div class="chat-section">
+				<div class="brand-logo"><h1>Logo</h1></div>
+				<div class="chat-area">
+					<textarea
+						id="textarea"
+						rows="1"
+						placeholder="Write a message..."
+					></textarea>
+				</div>
+			</div>
+		</section>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="./client.js"></script>
+	</body>
+</html>
